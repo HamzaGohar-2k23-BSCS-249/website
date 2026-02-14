@@ -43,7 +43,7 @@ For reference, here's the current implementation of the `Tile` widget:
 class Tile extends StatelessWidget {
   const Tile(required this.letter, required hitType, {super.key});
 
-  final String letter;
+  final Letter letter;
   final HitType hitType;
 
   @override
@@ -87,7 +87,7 @@ Modify your `Tile` widget as follows:
 class Tile extends StatelessWidget {
   const Tile(required this.letter, required hitType, {super.key});
 
-  final String letter;
+  final Letter letter;
   final HitType hitType;
 
   @override
@@ -152,7 +152,7 @@ To change the `Curve` of this animation, update the code to the following:
 class Tile extends StatelessWidget {
   const Tile(required this.letter, required hitType, {super.key});
 
-  final String letter;
+  final Letter letter;
   final HitType hitType;
 
   @override
